@@ -21,7 +21,7 @@ body{
     .container{
         justify-content: center;
         align-items: center;
-        margin: 0 20px;
+        
         text-align: center;   
          flex-wrap: wrap;
          width:fit-content;
@@ -75,6 +75,11 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+}
+@media (max-width:767px){
+    flex-direction:column;
+    gap:20px;
+
 }
 .stats .stat span{
     color: white;
