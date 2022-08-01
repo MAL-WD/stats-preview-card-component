@@ -17,36 +17,7 @@ body{
     max-width: 100%;
     
 }
-@media (max-width:767px) {
-    .container{
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 100px;
-        text-align: center;   
-         flex-wrap: wrap;
-         width: fit-content;
 
-
-    }
-    .content{
-        order: 2;
-        padding: 20px;
-    }
-    .stats p{
-        margin: 0 5px;
-    }
-}
-@media (max-width:767px) {
-    .container{
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 100px;
-        text-align: center;   
-         flex-wrap: wrap;
-         width: fit-content;
-
-
-    }
     .content{
         order: 2;
         padding: 20px;
